@@ -1,0 +1,7 @@
+# Allowlist: ONLY the encrypted page and its public salt ever go into git.
+# The readable onboarding doc must never be committed (git history keeps everything).
+*
+!.gitignore
+!README.md
+!index.html
+!.staticrypt.json
